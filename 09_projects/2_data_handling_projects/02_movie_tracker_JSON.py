@@ -24,7 +24,7 @@ Bonus:
 import os
 import json
 
-FILENAME = "movies.json"
+FILENAME = "movie.json"
 
 def load_movies():
     if not os.path.exists(FILENAME):
